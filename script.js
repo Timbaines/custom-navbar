@@ -11,9 +11,9 @@
         });
     };
 
-    // Select hamburger toggle button
+    // SELECT HAMBURGER TOGGLE 
     const tbMobileToggle = document.querySelector('.tb-hamburger');
     if (tbMobileToggle) {
-        // If toggle button is found, add click event listener to toggle mobile menu
+        // EVENT LISTENER FOR MOBILE TOGGLE
         tbMobileToggle.addEventListener('click', ToggleEl);
     }
