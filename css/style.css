@@ -1,0 +1,92 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***** LAYOUT | START *****/
+.tb-header {
+    background: #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.6rem;
+    padding: 0 3.2rem;
+    position: relative;
+}
+
+.tb-logo {
+    height: 3.2rem;
+}
+/***** LAYOUT | END *****/
+
+/***** MAIN NAV | START *****/
+.tb-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.tb-nav-link {
+    text-decoration: none;
+    position: relative;
+}
+
+.tb-nav-link:link,
+.tb-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.tb-nav-link:hover,
+.tb-nav-link:active {
+    color: #295889;
+}
+/* MAIN NAV CTA */
+.tb-nav-link.tb-cta:link,
+.tb-nav-link.tb-cta:visited {
+    background: #F9CE21;
+    border-radius: 25px;
+    padding: 12px 20px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.tb-nav-link.tb-cta:hover,
+.tb-nav-link.tb-cta:active{
+    background: #295889;
+    color: #ffffff;
+}
+/***** MAIN NAV | END *****/
+
+/***** MOBILE NAV | START *****/
+.mobile-container {
+    display: none;
+}
+
+.tb-mobile-cta {
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block; /* Added to make it behave like a button */
+    color: #333333;
+    font-size: .9rem;
+    font-weight: bold;
+    transition: background-color 0.3s; /* Added for hover effect */
+}
+
+.tb-mobile-cta:hover {
+    background: #eec520;
+}
+
+/***** MOBILE NAV | END *****/
+
+
+
